@@ -1,0 +1,19 @@
+.cla {
+  background-color: pink;
+  z-index: 2;
+  flex: 5;
+  flex-basis: 4;
+}
+.clas {
+  background-color: rgb(189, 47, 255);
+  z-index: 2;
+  flex: 5;
+  flex-basis: 4;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+.classic {
+  height: 100px;
+  width: 100px;
+}

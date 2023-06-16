@@ -1,0 +1,16 @@
+.login {
+  background-color: aqua;
+  display: block;
+  width: 20%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.7rem;
+}
+.shareOption {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}

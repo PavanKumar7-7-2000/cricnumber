@@ -1,0 +1,19 @@
+.style {
+  border: none;
+  padding: 0.5rem 0.9rem;
+  background-color: aquamarine;
+  display: inline;
+  border-radius: 0.2rem;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.style:hover {
+  opacity: 0.5;
+}
+.color {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: rgb(85, 194, 85);
+  background-color: greenyellow;
+  flex: 3;
+}

@@ -1,0 +1,10 @@
+.color {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  color: rgb(85, 194, 85);
+  box-sizing: border-box;
+
+  padding: 0px;
+  align-items: center;
+  background-color: greenyellow;
+}
