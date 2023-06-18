@@ -1,3 +1,17 @@
+* {
+  border-top-left-radius: 35%;
+  border-top-right-radius: 35%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px;
+}
+body {
+  /* margin: 2%; */
+  background-image: url("./../photos/night.jpg");
+  /* background-color: aqua; */
+  animation: anime 10s linear infinite;
+  opacity: 1;
+  background-size: cover;
+}
 .App {
   text-align: center;
 }
@@ -42,21 +56,54 @@
 .topbar,
 .footer {
   text-transform: uppercase;
-  background-color: aqua;
+  /* background-color: aqua; */
   text-align: center;
   font-size: 1rem;
 }
 .topbar {
-  background-color: aquamarine;
-  height: 8rem;
+  background-color: visible;
+  background-image: linear-gradient(
+    to right,
+    red,
+    orangered,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+  height: 15rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
   font-size: larger;
+  transition: all 5s linear;
+  transform: translateY(-3px);
+  /* animation: anime 10s linear infinite; */
 }
-.footer {
-  background-color: aqua;
 
+.footer {
+  /* background-color: visible; */
+  background-image: linear-gradient(
+    to right,
+    red,
+    orangered,
+    yellow,
+    green,
+    blue,
+    purple
+  );
   min-height: 14rem;
+  /* animation: anime 10s linear infinite; */
+  /* z-index: 11; */
+}
+@keyframes anime {
+  0% {
+    filter: hue-rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    filter: hue-rotate(360deg);
+    opacity: 1;
+  }
 }

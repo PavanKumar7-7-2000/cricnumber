@@ -10,6 +10,7 @@ import Routingtwo from "./components/Routingtwo";
 // import Welcomes from "./components/welcomes";
 import ComponentV from "./components/componentV";
 import Number from "./components/Number";
+import Arraz from "./components/Arraz";
 // import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 // import ComponentA from "./components/ComponentA";
@@ -95,7 +96,7 @@ function App() {
     //   {/* )} */}
     // </Routes>
     <>
-      <div className="topbar">Cricket batting numbers</div>
+      {/* <div className="topbar">Cricket batting numbers</div> */}
 
       <Routes>
         <Route path="/" element={<Number />} />
@@ -104,7 +105,7 @@ function App() {
         {/* <Route path="/" element={<Routing />} /> */}
       </Routes>
 
-      <div className="footer"></div>
+      {/* <div className="footer"></div> */}
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./welcome.css";
+
 class Welcomes extends Component {
   constructor(pro) {
     super(pro);
