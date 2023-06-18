@@ -68,7 +68,7 @@ function ComponentV() {
     // };
     Handler();
     // handel();
-  }, []);
+  }, [states]);
   // const Handler = () => {
   //   setStates(!states);
   // };
