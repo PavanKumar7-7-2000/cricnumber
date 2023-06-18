@@ -100,8 +100,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Number />} />
-        <Route path="/two" element={<Routingtwo />} />
-        <Route path="/login" element={<ComponentV />} />
+        {/* <Route path="/two" element={<Routingtwo />} />
+        <Route path="/login" element={<ComponentV />} /> */}
         {/* <Route path="/" element={<Routing />} /> */}
       </Routes>
 
